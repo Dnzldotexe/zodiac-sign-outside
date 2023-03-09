@@ -20,7 +20,7 @@ def get_zodiac(date,month):
         result.config(font = ("Comic Sans",20))
         result.grid(row=4,column=0,columnspan=2)
 
-        image1 = Image.open("aries.png")
+        image1 = Image.open("images/aries.png")
         test = ImageTk.PhotoImage(image1)
         label1 = tkinter.Label(image=test)
         label1.image = test
@@ -30,7 +30,7 @@ def get_zodiac(date,month):
         result.config(font = ("Comic Sans",20))
         result.grid(row=4,column=0,columnspan=2)
 
-        image1 = Image.open("taurus.png")
+        image1 = Image.open("images/taurus.png")
         test = ImageTk.PhotoImage(image1)
         label1 = tkinter.Label(image=test)
         label1.image = test
@@ -40,7 +40,7 @@ def get_zodiac(date,month):
         result.config(font = ("Comic Sans",20))
         result.grid(row=4,column=0,columnspan=2)
 
-        image1 = Image.open("gemini.png")
+        image1 = Image.open("images/gemini.png")
         test = ImageTk.PhotoImage(image1)
         label1 = tkinter.Label(image=test)
         label1.image = test
@@ -50,7 +50,7 @@ def get_zodiac(date,month):
         result.config(font = ("Comic Sans",20))
         result.grid(row=4,column=0,columnspan=2)
 
-        image1 = Image.open("cancer.png")
+        image1 = Image.open("images/cancer.png")
         test = ImageTk.PhotoImage(image1)
         label1 = tkinter.Label(image=test)
         label1.image = test
@@ -60,7 +60,7 @@ def get_zodiac(date,month):
         result.config(font = ("Comic Sans",20))
         result.grid(row=4,column=0,columnspan=2)
 
-        image1 = Image.open("leo.png")
+        image1 = Image.open("images/leo.png")
         test = ImageTk.PhotoImage(image1)
         label1 = tkinter.Label(image=test)
         label1.image = test
@@ -70,7 +70,7 @@ def get_zodiac(date,month):
         result.config(font = ("Comic Sans",20))
         result.grid(row=4,column=0,columnspan=2)
 
-        image1 = Image.open("virgo.png")
+        image1 = Image.open("images/virgo.png")
         test = ImageTk.PhotoImage(image1)
         label1 = tkinter.Label(image=test)
         label1.image = test
@@ -80,7 +80,7 @@ def get_zodiac(date,month):
         result.config(font = ("Comic Sans",20))
         result.grid(row=4,column=0,columnspan=2)
 
-        image1 = Image.open("libra.png")
+        image1 = Image.open("images/libra.png")
         test = ImageTk.PhotoImage(image1)
         label1 = tkinter.Label(image=test)
         label1.image = test
@@ -90,7 +90,7 @@ def get_zodiac(date,month):
         result.config(font = ("Comic Sans",20))
         result.grid(row=4,column=0,columnspan=2)
 
-        image1 = Image.open("scorpio.png")
+        image1 = Image.open("images/scorpio.png")
         test = ImageTk.PhotoImage(image1)
         label1 = tkinter.Label(image=test)
         label1.image = test
@@ -100,7 +100,7 @@ def get_zodiac(date,month):
         result.config(font = ("Comic Sans",20))
         result.grid(row=4,column=0,columnspan=2)
 
-        image1 = Image.open("sagittarius.png")
+        image1 = Image.open("images/sagittarius.png")
         test = ImageTk.PhotoImage(image1)
         label1 = tkinter.Label(image=test)
         label1.image = test
@@ -110,7 +110,7 @@ def get_zodiac(date,month):
         result.config(font = ("Comic Sans",20))
         result.grid(row=4,column=0,columnspan=2)
 
-        image1 = Image.open("capricorn.png")
+        image1 = Image.open("images/capricorn.png")
         test = ImageTk.PhotoImage(image1)
         label1 = tkinter.Label(image=test)
         label1.image = test
@@ -120,7 +120,7 @@ def get_zodiac(date,month):
         result.config(font = ("Comic Sans",20))
         result.grid(row=4,column=0,columnspan=2)
 
-        image1 = Image.open("aquarius.png")
+        image1 = Image.open("images/aquarius.png")
         test = ImageTk.PhotoImage(image1)
         label1 = tkinter.Label(image=test)
         label1.image = test
@@ -130,7 +130,7 @@ def get_zodiac(date,month):
         result.config(font = ("Comic Sans",20))
         result.grid(row=4,column=0,columnspan=2)
 
-        image1 = Image.open("pisces.png")
+        image1 = Image.open("images/pisces.png")
         test = ImageTk.PhotoImage(image1)
         label1 = tkinter.Label(image=test)
         label1.image = test
@@ -140,7 +140,7 @@ def get_zodiac(date,month):
         result.config(font = ("Comic Sans",20))
         result.grid(row=4,column=0,columnspan=2)
 
-        image1 = Image.open("greenu.png")
+        image1 = Image.open("images/greenu.png")
         image2 = image1.resize((508,339), Image.ANTIALIAS)
         test = ImageTk.PhotoImage(image2)
         label1 = tkinter.Label(image=test)
