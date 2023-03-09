@@ -141,7 +141,7 @@ def get_zodiac(date,month):
         result.grid(row=4,column=0,columnspan=2)
 
         image1 = Image.open("images/greenu.png")
-        image2 = image1.resize((508,339), Image.ANTIALIAS)
+        image2 = image1.resize((508,339), Image.LANCZOS)
         test = ImageTk.PhotoImage(image2)
         label1 = tkinter.Label(image=test)
         label1.image = test
